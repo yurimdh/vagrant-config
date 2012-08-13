@@ -1,7 +1,7 @@
 alias ll="ls -Glahs"
 alias psgrep="ps aux | grep -v grep | grep"
 
-export PATH="./bin:$PATH"
+export PATH="./bin:$HOME/bin:$HOME/local/bin:$HOME/local/ruby/gems/bin:$HOME/local/ruby/current/bin:$HOME/local/sbin:$PATH"
 export PS1="\n[vagrant] \w\n$ "
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="4;33"
@@ -10,6 +10,7 @@ export HISTFILE="$HOME/.bash_history"
 export HISTSIZE=1000000
 export HISTCONTROL=ignoreboth:erasedups
 export HISTIGNORE="&:ls:cd ~:cd .."
+export INSTALL_DIR="$HOME/local"
 
 shopt -s cdspell
 shopt -s nocaseglob
