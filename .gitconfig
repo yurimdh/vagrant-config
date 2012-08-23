@@ -22,7 +22,7 @@
   st = status
   who = shortlog -s --
   fl = log -p
-  lg = log --oneline --decorate
+  lg = log --oneline --decorate --graph
   sb = status -sb
   dw = diff --word-diff
 [core]
