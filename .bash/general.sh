@@ -1,3 +1,4 @@
+alias ls="ls --time-style=long-iso --group-directories-first --color"
 alias ll="ls -Glahs"
 alias psgrep="ps aux | grep -v grep | grep"
 
