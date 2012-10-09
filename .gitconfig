@@ -7,8 +7,8 @@
   branch = auto
   ui = true
 [color "diff"]
-  plain = black
-  meta = black
+  plain = white
+  meta = white
   frag = cyan reverse
   old = red
   new = green
