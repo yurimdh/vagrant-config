@@ -14,7 +14,7 @@ export HISTCONTROL=ignoreboth:erasedups
 export HISTIGNORE="&:ls:cd ~:cd .."
 export INSTALL_DIR="$HOME/local"
 export GEM_HOME="/home/vagrant/local/ruby/gems"
-export GEM_PATH="/home/vagrant/local/ruby/gems"
+export GEM_PATH=$GEM_HOME
 
 shopt -s cdspell
 shopt -s nocaseglob
