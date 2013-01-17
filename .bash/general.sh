@@ -1,7 +1,7 @@
 alias ls="ls --time-style=long-iso --group-directories-first --color"
 alias ll="ls -Glahs"
 alias psgrep="ps aux | grep -v grep | grep"
-alias spines="spin serve --preload spec/dummy/config/application.rb -Ispec --rspec"
+alias ack="ack-grep"
 
 export PATH="./bin:$HOME/bin:$HOME/local/bin:$HOME/local/ruby/gems/bin:$HOME/local/ruby/current/bin:$HOME/local/phantomjs/bin:$HOME/local/sbin:$PATH"
 export PS1="\n[vagrant] \w\n$ "
