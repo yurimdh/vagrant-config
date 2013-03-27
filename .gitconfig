@@ -1,6 +1,6 @@
 [user]
-	email = willian@willianfernandes.com.br
-	name = Willian Fernandes
+  email = willian@willianfernandes.com.br
+  name = Willian Fernandes
 [color]
   diff = auto
   status = auto
@@ -15,22 +15,26 @@
   commit = yellow
   whitespace = normal red
 [alias]
-  sh = !git-sh
-  ci = commit
-  co = checkout
   b = branch
+  ci = commit
+  cleanup = !git remote prune origin && git gc && git clean -df && git stash clear
+  co = checkout
+  dw = diff --word-diff
+  fl = log -p
+  lg = log --oneline --decorate
+  sb = status -sb
+  sh = !git-sh
   st = status
   who = shortlog -s --
-  fl = log -p
-  lg = log --oneline --decorate --graph
-  sb = status -sb
-  dw = diff --word-diff
 [core]
-	editor = vim
-	excludesfile = /home/vagrant/.gitignore
+  editor = vim
+  excludesfile = /home/vagrant/.gitignore
 [help]
+  autosetupmerge = true
   autocorrect = 1
 [branch]
   autosetuprebase = always
 [push]
   default = current
+[github]
+  user = willian
