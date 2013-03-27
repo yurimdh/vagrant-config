@@ -1,6 +1,7 @@
 CURRENT_PATH=`pwd`
 
 # Linking
+ln -sf $CURRENT_PATH/.ackrc $HOME/.ackrc
 ln -sf $CURRENT_PATH/.bash $HOME/.bash
 ln -sf $CURRENT_PATH/.bash_profile $HOME/.bash_profile
 ln -sf $CURRENT_PATH/.gemrc $HOME/.gemrc
