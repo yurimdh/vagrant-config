@@ -1,0 +1,15 @@
+*.*~
+*.log
+*.log
+*.sqlite3
+.*.swp
+.DS_Store
+.env
+.swp
+Procfile.development
+coverage
+database.yml
+db/schema.rb
+log/*
+pkg
+tmp
