@@ -3,6 +3,7 @@ alias ll="ls -Glahs"
 alias psgrep="ps aux | grep -v grep | grep"
 alias ack="ack-grep"
 alias xrspec="xvfb-run rspec"
+alias be="bundle exec"
 
 export PATH="./bin:$HOME/bin:$HOME/local/bin:$HOME/local/ruby/gems/bin:$HOME/local/ruby/current/bin:$HOME/local/phantomjs/bin:$HOME/local/sbin:$HOME/local/node/npm/bin:$PATH"
 export PS1="\n[vagrant] \w\n$ "
