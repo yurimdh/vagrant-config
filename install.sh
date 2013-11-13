@@ -13,6 +13,8 @@ ln -sf $CURRENT_PATH/.irbrc $HOME/.irbrc
 ln -sf $CURRENT_PATH/.npmrc $HOME/.npmrc
 ln -sf $CURRENT_PATH/.pryrc $HOME/.pryrc
 
+rm $CURRENT_PATH/.bash/.bash
+
 source $HOME/.bash_profile
 
 echo "[OK]"
