@@ -12,6 +12,7 @@ ln -sf $CURRENT_PATH/.inputrc $HOME/.inputrc
 ln -sf $CURRENT_PATH/.irbrc $HOME/.irbrc
 ln -sf $CURRENT_PATH/.npmrc $HOME/.npmrc
 ln -sf $CURRENT_PATH/.pryrc $HOME/.pryrc
+ln -sf $CURRENT_PATH/.tmux.conf $HOME/.tmux.conf
 
 rm $CURRENT_PATH/.bash/.bash
 
